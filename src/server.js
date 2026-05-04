@@ -12,7 +12,7 @@ async function createAdminUser() {
     if (!adminUser) {
       const newAdminUser = new User({
         username: 'admin',
-        password: 'admin_arka',
+        password: 'admin_starbot',
       });
 
       await newAdminUser.save(); // Save the new admin user to the database
